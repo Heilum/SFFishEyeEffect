@@ -9,6 +9,8 @@ Bellow is the algorithm chart:
 
 ![ScreenShot](https://raw.github.com/JagieChen/SFFishEyeEffect/master/algorithm_chart.jpg)
 
+===============
+
 Our input is a bitmap and the output is another bitmap but with the sampe size.For conviently,We assume the 
 input image's shape is a squar with the origin at the center of the images. 
 
