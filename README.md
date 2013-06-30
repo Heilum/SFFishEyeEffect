@@ -22,9 +22,9 @@ First,let's assume the half of the whole fish eye's angle is A and We get "r = r
 
 To let the output image contain all the content the input image have,"h" must equl "ri / tan(A)".
 
-Put all together,We get: "d = (ri / tan(A)) * tan(b * A / ri)".
+Put all together,we get: "d = (ri / tan(A)) * tan(b * A / ri)".
 
-See the code,and you will understand thoroughly!
+See the code,and you will understand thoroughly,good luck!
 
 
 =========================================================
@@ -41,6 +41,8 @@ See the code,and you will understand thoroughly!
 为了让原图的所有像素都纳入鱼眼内，势必有tan(A) = R(视野半径,即为ri) / h => h = ri / tan(A)
     
 综上：d = (ri / tan(A)) * tan(b * A / ri) // ri已知,A为可调参数，b为自变量。
+
+请结合代码，理解更深。
     
     
     
