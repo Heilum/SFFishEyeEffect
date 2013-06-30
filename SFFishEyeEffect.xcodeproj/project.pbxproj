@@ -15,7 +15,6 @@
 		183771D6178003D90042C52C /* SFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183771D5178003D90042C52C /* SFAppDelegate.m */; };
 		183771D8178003D90042C52C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 183771D7178003D90042C52C /* Default.png */; };
 		183771DA178003D90042C52C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183771D9178003D90042C52C /* Default@2x.png */; };
-		183771DC178003D90042C52C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183771DB178003D90042C52C /* Default-568h@2x.png */; };
 		183771DF178003D90042C52C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183771DD178003D90042C52C /* MainStoryboard.storyboard */; };
 		183771E2178003D90042C52C /* SFFishEyesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 183771E1178003D90042C52C /* SFFishEyesVC.m */; };
 		183771E917800DCD0042C52C /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 183771E817800DCD0042C52C /* sample.jpg */; };
@@ -25,6 +24,7 @@
 		183771F517809BB50042C52C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183771F417809BB50042C52C /* Icon@2x.png */; };
 		183771F717809FA50042C52C /* snapshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 183771F617809FA50042C52C /* snapshot.png */; };
 		183771FB1780A0800042C52C /* algorithm_chart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 183771FA1780A0800042C52C /* algorithm_chart.jpg */; };
+		183772011780A36F0042C52C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183772001780A36F0042C52C /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +40,6 @@
 		183771D5178003D90042C52C /* SFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAppDelegate.m; sourceTree = "<group>"; };
 		183771D7178003D90042C52C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		183771D9178003D90042C52C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		183771DB178003D90042C52C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		183771DE178003D90042C52C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		183771E0178003D90042C52C /* SFFishEyesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFFishEyesVC.h; sourceTree = "<group>"; };
 		183771E1178003D90042C52C /* SFFishEyesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFFishEyesVC.m; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		183771F417809BB50042C52C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		183771F617809FA50042C52C /* snapshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snapshot.png; sourceTree = SOURCE_ROOT; };
 		183771FA1780A0800042C52C /* algorithm_chart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = algorithm_chart.jpg; sourceTree = SOURCE_ROOT; };
+		183772001780A36F0042C52C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +115,7 @@
 		183771CC178003D90042C52C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				183772001780A36F0042C52C /* Default-568h@2x.png */,
 				183771F417809BB50042C52C /* Icon@2x.png */,
 				183771EE178054F50042C52C /* sample2.png */,
 				183771E817800DCD0042C52C /* sample.jpg */,
@@ -124,7 +125,6 @@
 				183771D3178003D90042C52C /* SFFishEyeEffect-Prefix.pch */,
 				183771D7178003D90042C52C /* Default.png */,
 				183771D9178003D90042C52C /* Default@2x.png */,
-				183771DB178003D90042C52C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -184,7 +184,6 @@
 				183771D0178003D90042C52C /* InfoPlist.strings in Resources */,
 				183771D8178003D90042C52C /* Default.png in Resources */,
 				183771DA178003D90042C52C /* Default@2x.png in Resources */,
-				183771DC178003D90042C52C /* Default-568h@2x.png in Resources */,
 				183771DF178003D90042C52C /* MainStoryboard.storyboard in Resources */,
 				183771E917800DCD0042C52C /* sample.jpg in Resources */,
 				183771EF178054F50042C52C /* sample2.png in Resources */,
@@ -192,6 +191,7 @@
 				183771F517809BB50042C52C /* Icon@2x.png in Resources */,
 				183771F717809FA50042C52C /* snapshot.png in Resources */,
 				183771FB1780A0800042C52C /* algorithm_chart.jpg in Resources */,
+				183772011780A36F0042C52C /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +327,7 @@
 				183771E7178003D90042C52C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -72,6 +72,7 @@
                         <outlet property="degreeAngleLabel" destination="GQm-Yi-H7W" id="WKo-9o-EPV"/>
                         <outlet property="imageView" destination="Gy6-Gi-G5n" id="LNT-xc-cWc"/>
                         <outlet property="slide" destination="biV-GN-gRT" id="63o-8e-y09"/>
+                        <outlet property="switchControl" destination="Dwy-tt-Nfb" id="6lq-SJ-hsQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>

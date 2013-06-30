@@ -18,6 +18,7 @@
 
 
 @property (weak, nonatomic) IBOutlet UILabel *degreeAngleLabel;
+@property (weak, nonatomic) IBOutlet UISwitch *switchControl;
 
 
 @end
@@ -159,6 +160,9 @@
     [super viewDidLoad];
     self.srcImage = [UIImage imageNamed:@"sample2.png"];
     self.imageView.image = self.srcImage;
+    
+    [self.switchControl setOn:YES animated:NO];
+    [self onSwitchEyeFish:self.switchControl];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
