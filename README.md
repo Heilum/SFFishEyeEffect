@@ -7,5 +7,4 @@ This project is to illustrate the Fish Eye(barrel distorting) algorithm on iOS!
 
 Bellow is the algorithm chart:
 
-![ScreenShot](https://github.com/JagieChen/SFFishEyeEffect/blob/master/algorithm_chart.jpg)
-
+![ScreenShot](https://raw.github.com/JagieChen/SFFishEyeEffect/master/master/algorithm_chart.jpg)
