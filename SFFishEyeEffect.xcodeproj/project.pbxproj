@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183771C6178003D90042C52C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183771C5178003D90042C52C /* UIKit.framework */; };
+		183771C8178003D90042C52C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183771C7178003D90042C52C /* Foundation.framework */; };
+		183771CA178003D90042C52C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183771C9178003D90042C52C /* CoreGraphics.framework */; };
+		183771D0178003D90042C52C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 183771CE178003D90042C52C /* InfoPlist.strings */; };
+		183771D2178003D90042C52C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183771D1178003D90042C52C /* main.m */; };
+		183771D6178003D90042C52C /* SFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183771D5178003D90042C52C /* SFAppDelegate.m */; };
+		183771D8178003D90042C52C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 183771D7178003D90042C52C /* Default.png */; };
+		183771DA178003D90042C52C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183771D9178003D90042C52C /* Default@2x.png */; };
+		183771DC178003D90042C52C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183771DB178003D90042C52C /* Default-568h@2x.png */; };
+		183771DF178003D90042C52C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183771DD178003D90042C52C /* MainStoryboard.storyboard */; };
+		183771E2178003D90042C52C /* SFFishEyesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 183771E1178003D90042C52C /* SFFishEyesVC.m */; };
+		183771E917800DCD0042C52C /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 183771E817800DCD0042C52C /* sample.jpg */; };
+		183771EB1780174B0042C52C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183771EA1780174B0042C52C /* QuartzCore.framework */; };
+		183771EF178054F50042C52C /* sample2.png in Resources */ = {isa = PBXBuildFile; fileRef = 183771EE178054F50042C52C /* sample2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183771C2178003D90042C52C /* SFFishEyeEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFFishEyeEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183771C5178003D90042C52C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		183771C7178003D90042C52C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		183771C9178003D90042C52C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		183771CD178003D90042C52C /* SFFishEyeEffect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFFishEyeEffect-Info.plist"; sourceTree = "<group>"; };
+		183771CF178003D90042C52C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		183771D1178003D90042C52C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		183771D3178003D90042C52C /* SFFishEyeEffect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFFishEyeEffect-Prefix.pch"; sourceTree = "<group>"; };
+		183771D4178003D90042C52C /* SFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAppDelegate.h; sourceTree = "<group>"; };
+		183771D5178003D90042C52C /* SFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAppDelegate.m; sourceTree = "<group>"; };
+		183771D7178003D90042C52C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		183771D9178003D90042C52C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		183771DB178003D90042C52C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		183771DE178003D90042C52C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		183771E0178003D90042C52C /* SFFishEyesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFFishEyesVC.h; sourceTree = "<group>"; };
+		183771E1178003D90042C52C /* SFFishEyesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFFishEyesVC.m; sourceTree = "<group>"; };
+		183771E817800DCD0042C52C /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
+		183771EA1780174B0042C52C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		183771EE178054F50042C52C /* sample2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183771BF178003D90042C52C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183771EB1780174B0042C52C /* QuartzCore.framework in Frameworks */,
+				183771C6178003D90042C52C /* UIKit.framework in Frameworks */,
+				183771C8178003D90042C52C /* Foundation.framework in Frameworks */,
+				183771CA178003D90042C52C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183771B9178003D90042C52C = {
+			isa = PBXGroup;
+			children = (
+				183771CB178003D90042C52C /* SFFishEyeEffect */,
+				183771C4178003D90042C52C /* Frameworks */,
+				183771C3178003D90042C52C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183771C3178003D90042C52C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183771C2178003D90042C52C /* SFFishEyeEffect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183771C4178003D90042C52C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				183771EA1780174B0042C52C /* QuartzCore.framework */,
+				183771C5178003D90042C52C /* UIKit.framework */,
+				183771C7178003D90042C52C /* Foundation.framework */,
+				183771C9178003D90042C52C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		183771CB178003D90042C52C /* SFFishEyeEffect */ = {
+			isa = PBXGroup;
+			children = (
+				183771D4178003D90042C52C /* SFAppDelegate.h */,
+				183771D5178003D90042C52C /* SFAppDelegate.m */,
+				183771DD178003D90042C52C /* MainStoryboard.storyboard */,
+				183771E0178003D90042C52C /* SFFishEyesVC.h */,
+				183771E1178003D90042C52C /* SFFishEyesVC.m */,
+				183771CC178003D90042C52C /* Supporting Files */,
+			);
+			path = SFFishEyeEffect;
+			sourceTree = "<group>";
+		};
+		183771CC178003D90042C52C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183771EE178054F50042C52C /* sample2.png */,
+				183771E817800DCD0042C52C /* sample.jpg */,
+				183771CD178003D90042C52C /* SFFishEyeEffect-Info.plist */,
+				183771CE178003D90042C52C /* InfoPlist.strings */,
+				183771D1178003D90042C52C /* main.m */,
+				183771D3178003D90042C52C /* SFFishEyeEffect-Prefix.pch */,
+				183771D7178003D90042C52C /* Default.png */,
+				183771D9178003D90042C52C /* Default@2x.png */,
+				183771DB178003D90042C52C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183771C1178003D90042C52C /* SFFishEyeEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183771E5178003D90042C52C /* Build configuration list for PBXNativeTarget "SFFishEyeEffect" */;
+			buildPhases = (
+				183771BE178003D90042C52C /* Sources */,
+				183771BF178003D90042C52C /* Frameworks */,
+				183771C0178003D90042C52C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFFishEyeEffect;
+			productName = SFFishEyeEffect;
+			productReference = 183771C2178003D90042C52C /* SFFishEyeEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183771BA178003D90042C52C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Jagie;
+			};
+			buildConfigurationList = 183771BD178003D90042C52C /* Build configuration list for PBXProject "SFFishEyeEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 183771B9178003D90042C52C;
+			productRefGroup = 183771C3178003D90042C52C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183771C1178003D90042C52C /* SFFishEyeEffect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183771C0178003D90042C52C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183771D0178003D90042C52C /* InfoPlist.strings in Resources */,
+				183771D8178003D90042C52C /* Default.png in Resources */,
+				183771DA178003D90042C52C /* Default@2x.png in Resources */,
+				183771DC178003D90042C52C /* Default-568h@2x.png in Resources */,
+				183771DF178003D90042C52C /* MainStoryboard.storyboard in Resources */,
+				183771E917800DCD0042C52C /* sample.jpg in Resources */,
+				183771EF178054F50042C52C /* sample2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183771BE178003D90042C52C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183771D2178003D90042C52C /* main.m in Sources */,
+				183771D6178003D90042C52C /* SFAppDelegate.m in Sources */,
+				183771E2178003D90042C52C /* SFFishEyesVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		183771CE178003D90042C52C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183771CF178003D90042C52C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		183771DD178003D90042C52C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183771DE178003D90042C52C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183771E3178003D90042C52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		183771E4178003D90042C52C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183771E6178003D90042C52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFFishEyeEffect/SFFishEyeEffect-Prefix.pch";
+				INFOPLIST_FILE = "SFFishEyeEffect/SFFishEyeEffect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		183771E7178003D90042C52C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFFishEyeEffect/SFFishEyeEffect-Prefix.pch";
+				INFOPLIST_FILE = "SFFishEyeEffect/SFFishEyeEffect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183771BD178003D90042C52C /* Build configuration list for PBXProject "SFFishEyeEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183771E3178003D90042C52C /* Debug */,
+				183771E4178003D90042C52C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183771E5178003D90042C52C /* Build configuration list for PBXNativeTarget "SFFishEyeEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183771E6178003D90042C52C /* Debug */,
+				183771E7178003D90042C52C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183771BA178003D90042C52C /* Project object */;
+}
