@@ -93,7 +93,7 @@
     float height = (self.srcImage.size.height);
     
     
-    float r = MIN(width, height) / 2;
+    float ri = MIN(width, height) / 2;
     
     uint32_t * srcPixels = [self convertToUINT32Array:self.srcImage];
     uint32_t * dstPixels = malloc(width * height * sizeof(uint32_t));
@@ -101,10 +101,10 @@
     CGPoint center = CGPointMake(width / 2,height / 2);
     
     const float sphereAngle = self.slide.value * M_PI / 180;
-    const float sphereRadius = r / sphereAngle;
+    const float sphereRadius = ri / sphereAngle;
     
     
-    float h = r / tan(sphereAngle);
+    float h = ri / tan(sphereAngle);
     
     for (int row = 0; row < height; row++) {
         for (int col = 0; col < width; col++) {
@@ -115,7 +115,7 @@
             
             
             
-            double dis2 = tan(dis / sphereRadius) * h;  //r * tan(dis / r) * 0.7;
+            double dis2 = tan(dis / sphereRadius) * h; 
             
             float newDx = dis2 * cos(angle);
             float newDy = dis2 * sin(angle);

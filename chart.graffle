@@ -181,7 +181,7 @@
 \cf3 P:a point on the spheric mirror\
 r:the radius of the spheric mirror\
 a:the angle of P\
-b:the arc of P\
+b:the arc length of P\
 h:the distance between the heart of the spheric mirror to the ground\
 d:the map of b on the ground\
 R:the radius of the view scope of the Fish Eye\
@@ -1153,7 +1153,7 @@ d=h *tan(a).\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-06-30 15:00:11 +0000</string>
+	<string>2013-06-30 16:28:00 +0000</string>
 	<key>Modifier</key>
 	<string>Jagie</string>
 	<key>NotesVisible</key>
