@@ -22,7 +22,6 @@
 		183771EF178054F50042C52C /* sample2.png in Resources */ = {isa = PBXBuildFile; fileRef = 183771EE178054F50042C52C /* sample2.png */; };
 		183771F117807DCE0042C52C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 183771F017807DCE0042C52C /* README.md */; };
 		183771F517809BB50042C52C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183771F417809BB50042C52C /* Icon@2x.png */; };
-		183771F717809FA50042C52C /* snapshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 183771F617809FA50042C52C /* snapshot.png */; };
 		183771FB1780A0800042C52C /* algorithm_chart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 183771FA1780A0800042C52C /* algorithm_chart.jpg */; };
 		183772011780A36F0042C52C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183772001780A36F0042C52C /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
@@ -48,7 +47,6 @@
 		183771EE178054F50042C52C /* sample2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample2.png; sourceTree = "<group>"; };
 		183771F017807DCE0042C52C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		183771F417809BB50042C52C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		183771F617809FA50042C52C /* snapshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snapshot.png; sourceTree = SOURCE_ROOT; };
 		183771FA1780A0800042C52C /* algorithm_chart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = algorithm_chart.jpg; sourceTree = SOURCE_ROOT; };
 		183772001780A36F0042C52C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,7 +99,6 @@
 			children = (
 				183771FA1780A0800042C52C /* algorithm_chart.jpg */,
 				183771F017807DCE0042C52C /* README.md */,
-				183771F617809FA50042C52C /* snapshot.png */,
 				183771D4178003D90042C52C /* SFAppDelegate.h */,
 				183771D5178003D90042C52C /* SFAppDelegate.m */,
 				183771DD178003D90042C52C /* MainStoryboard.storyboard */,
@@ -189,7 +186,6 @@
 				183771EF178054F50042C52C /* sample2.png in Resources */,
 				183771F117807DCE0042C52C /* README.md in Resources */,
 				183771F517809BB50042C52C /* Icon@2x.png in Resources */,
-				183771F717809FA50042C52C /* snapshot.png in Resources */,
 				183771FB1780A0800042C52C /* algorithm_chart.jpg in Resources */,
 				183772011780A36F0042C52C /* Default-568h@2x.png in Resources */,
 			);
