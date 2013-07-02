@@ -27,7 +27,7 @@
 
 @implementation SFFishEyesVC
 
-- (uint32_t *)convertToUINT32Array:(UIImage *)srcImage {
+static inline  uint32_t * convertImageToUINT32Array(UIImage *srcImage) {
     CGSize size = [srcImage size];
     int width = size.width;
     int height = size.height;
@@ -53,7 +53,7 @@
     return pixels;
 }
 
--(UIImage *)convertUINT32ArrayToUIImage:(uint32_t *)pixels Width:(int)width Height:(int)height{
+static inline UIImage * convertUINT32ArrayToUIImage(uint32_t *pixels ,int width ,int height){
     CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
     
     // create a context with RGBA pixels
@@ -96,7 +96,7 @@
     
     float ri = MIN(width, height) / 2;
     
-    uint32_t * srcPixels = [self convertToUINT32Array:self.srcImage];
+    uint32_t * srcPixels  = convertImageToUINT32Array(self.srcImage);
     uint32_t * dstPixels = malloc(width * height * sizeof(uint32_t));
     
     CGPoint center = CGPointMake(width / 2,height / 2);
@@ -134,7 +134,7 @@
         }
     }
     free(srcPixels);
-    UIImage *image2 = [self convertUINT32ArrayToUIImage:dstPixels Width:(int)width Height:(int)height];
+    UIImage *image2 = convertUINT32ArrayToUIImage(dstPixels, width, height);
     self.distortedImage = image2;
     
     free(dstPixels);
